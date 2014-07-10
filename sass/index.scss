@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import "rest";
+%bdrs-li{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: block;
+}
+html, body {
+  height: 100%;
+}
+.wrap-page {
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header{
+  height: 28.16901408450704%;
+  background : -webkit-linear-gradient(bottom, #0379fe 10%, #3dabf8 100%);
+  background : -moz-linear-gradient(bottom, #0379fe 10%, #3dabf8 100%);
+  background : -ms-linear-gradient(bottom, #0379fe 10%, #3dabf8 100%);
+  background : -o-linear-gradient(bottom, #0379fe 10%, #3dabf8 100%);
+  background : linear-gradient(bottom, #0379fe 10%, #3dabf8 100%);
+    h1{
+      padding-top: 4%;
+      text-align: center;
+      font-size: 1.8em;
+      color: #ffffff;}
+    h2{
+      text-align: center;
+      font-size: 1.2em;
+      line-height: 0.8em;
+      color: #ffffff;
+        span{
+          position: relative;
+          padding-left: 0.5em;
+          &:after{
+            position: absolute;
+            top: -0.5em;
+            left: 1em;
+            content: '';
+            width: 33px;
+            height: 22px;
+            display: block;
+            background: url(../img/wifi_logo.png) 0 0 no-repeat;
+          }
+        }
+    }
+}
+
+.page-list{
+  width: 100%;
+  margin-bottom: 2em;
+  overflow: hidden;
+  li{
+    margin: 6% 0;
+    width:33.333%;
+    height: 78px;
+    float: left;
+    text-align: center;
+
+      em{
+        font-size: 1em;
+        font-style: normal;
+        display: block;
+      }
+      b{
+        font-size: 1em;
+        display: block;}
+      span{
+        position: relative;
+        left: 50%;
+        margin-left: -24px;
+        margin-bottom: 0.5em;
+      }
+      i {
+        position: absolute;
+        top: 12px;
+        left: 15px;
+        width: 20px;
+        height: 20px;
+        display: block;
+      }
+    img{
+      width: 100%;}
+    &:nth-child(1){
+      span{
+        @extend %bdrs-li;
+        background: #d45cdf;
+        i{
+          top: 10px;
+
+        }
+      }
+
+    }
+    &:nth-child(2){
+      span{
+        @extend %bdrs-li;
+        background: #1383eb;
+
+      }
+
+    }
+    &:nth-child(3){
+      span{
+        @extend %bdrs-li;
+        background: #1ed4f5;
+
+      }
+    }
+    &:nth-child(4){
+      span{
+        @extend %bdrs-li;
+        background: #83cb3c;
+
+      }
+    }
+    &:nth-child(5){
+      span{
+        @extend %bdrs-li;
+        background: #2bda8e;
+
+      }
+    }
+    &:nth-child(6){
+      span {
+        @extend %bdrs-li;
+        background: #da9047;
+
+      }
+    }
+    &:nth-child(7){
+      span {
+        @extend %bdrs-li;
+        background: #f24663;
+
+      }
+    }
+    &:nth-child(8){
+      span{
+        @extend %bdrs-li;
+        background: #a031e6;
+
+      }
+    }
+    &:nth-child(9){
+      span{
+        @extend %bdrs-li;
+        background: #d9c049;
+
+      }
+
+    }
+  }
+}
+.footer{
+  height: 18.13380281690141%;
+  background: #ededed;}
