@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import "rest";
+
+.wrap{
+  height: 100%;
+  background : -webkit-linear-gradient(bottom, #0379fe 50%, #3dabf8 100%);
+  background : -moz-linear-gradient(bottom, #0379fe 50%, #3dabf8 100%);
+  background : -ms-linear-gradient(bottom, #0379fe 50%, #3dabf8 100%);
+  background : -o-linear-gradient(bottom, #0379fe 50%, #3dabf8 100%);
+  background : linear-gradient(bottom, #0379fe 50%, #3dabf8 100%);}
+
+.head-tt{
+  width: 100%;
+  padding: 4% -0px;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+    span {
+      position: relative;
+      padding-left: 0.5rem;
+      &:after {
+        position: absolute;
+        top: -0.5rem;
+        left: 2.3rem;
+        content: '';
+        width: 3.3rem;
+        height: 2.2rem;
+        display: block;
+        background: url(../img/wifi_logo.png) 0 0 no-repeat;
+      }
+    }
+}
+
+.mid-tw{
+  width: 100%;
+  p{
+    font-size: 1.4rem;
+    text-align: center;
+    color: #ffffff;}
+}
+.znz{
+  position: relative;
+  top: 2rem;
+  padding: 4rem 0px;
+  height: 4.6rem;
+  em{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    img{
+      margin-left: -23px;}
+  }
+}
+.step1{
+  padding: 3%;
+  margin: 5rem auto;
+  width: 89.625%;
+  background: #ffffff;
+  border-radius: 10px;
+  b{
+    font-size: 1.8rem;
+    font-weight: normal;}
+  p{
+    font-size: 1.4rem;
+  }
+  p,b{
+    color: #1d90fb;}
+}
+.btn{
+  margin-bottom: 0.5rem;
+  display: block;
+  width: 7rem;
+  font-size: 1.2rem;
+  height: 2rem;
+  line-height: 2rem;
+  background: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #1c8ffb;
+  border: 1px solid #1c8ffb;
+}
+.btn2{
+  background: #1c8ffb;
+  color: #ffffff;}
+.step1-btn{
+  margin: 1rem 0px 0 6rem;
+  width: 26rem;
+  overflow: hidden;
+    span{
+      width: 5rem;
+      float: left;}
+}
+.btn3{
+  width: 8rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+}
