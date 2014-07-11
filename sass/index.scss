@@ -6,6 +6,7 @@
   border-radius: 50%;
   display: block;
 }
+%trans{-webkit-transition: all .3s ease-in-out 0s;-moz-transition: all .3s ease-in-out 0s;-ms-transition: all .3s ease-in-out 0s; -o-transition: all .3s ease-in-out 0s;transition: all .3s ease-in-out 0s;}
 html, body {
   height: 100%;
 }
@@ -74,7 +75,10 @@ html, body {
         left: 50%;
         margin-left: -24px;
         margin-bottom: 0.5em;
-
+          &:hover,&:active{
+            @extend %trans;
+            opacity: .7;
+          }
       }
       i {
         position: absolute;
@@ -205,6 +209,10 @@ html, body {
     span {
       width: 48px;
       height: 48px;
+        &:hover,&:active{
+          @extend %trans;
+          opacity: .7;
+        }
     }
     p{
       font-weight: bold;
