@@ -16,7 +16,7 @@ html, body {
 }
 
 .header{
-  height: 28.16901408450704%;
+  min-height: 28.16901408450704%;
   background : -webkit-linear-gradient(bottom, #0379fe 10%, #3dabf8 100%);
   background : -moz-linear-gradient(bottom, #0379fe 10%, #3dabf8 100%);
   background : -ms-linear-gradient(bottom, #0379fe 10%, #3dabf8 100%);
@@ -28,6 +28,7 @@ html, body {
       font-size: 1.8em;
       color: #ffffff;}
     h2{
+      padding-bottom: 10px;
       text-align: center;
       font-size: 1.2em;
       line-height: 0.8em;
@@ -68,11 +69,12 @@ html, body {
       b{
         font-size: 1em;
         display: block;}
-      span{
+      span {
         position: relative;
         left: 50%;
         margin-left: -24px;
         margin-bottom: 0.5em;
+
       }
       i {
         position: absolute;
@@ -156,5 +158,56 @@ html, body {
   }
 }
 .footer{
-  height: 18.13380281690141%;
-  background: #ededed;}
+  min-height: 18.13380281690141%;
+  background: #ededed;
+    h3 {
+      padding-top: 5px;
+      font-weight: bold;
+      text-align: center;
+    }
+}
+
+.footer-list {
+  width: 100%;
+  display: -moz-box;
+  display: -ms-box;
+  display: -webkit-box;
+  display: box;
+
+  li {
+
+    display: -moz-box;
+    display: -ms-box;
+    display: -webkit-box;
+    display: box;
+
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-box-flex: 1;
+    box-flex: 1;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    box-align: center;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-box-pack: center;
+    box-pack: center;
+
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -ms-box-orient: vertical;
+    box-orient: vertical;
+
+    width: 48px;
+    span {
+      width: 48px;
+      height: 48px;
+    }
+    p{
+      font-weight: bold;
+    }
+  }
+}
