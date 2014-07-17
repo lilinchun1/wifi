@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import "rest";
+$font-color: #1383eb;
+
+.head-tt{
+  padding-bottom: 1rem;
+  text-align: center;
+  background: #ededed;
+    h1{
+      font-size: 2rem;
+      color: $font-color;
+    }
+    a{
+      font-size: 1.4rem;
+      float: left;
+      color: $font-color;
+      margin-top: -30px;
+      margin-left: 10px;}
+}
+.nav-hd{
+  margin: 0.5rem auto;
+  width: 80%;
+  height: 40px;
+  border: 2px solid $font-color;
+  border-radius: 50px;
+  .active{
+    background: $font-color;
+    color: #ffffff;
+  }
+}
+.nav-btn{
+  float: left;
+  width: 33.3%;
+  height: 36px;
+  border:0 none;
+  background: #ededed;
+}
+.btn-l{
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.btn-r{
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.list-item{
+  margin: 0 auto;
+  width: 90%;
+  li {
+    height: 67px;
+    border-bottom: 1px solid #c3c3c3;
+    display: -moz-box;
+    display: -ms-box;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -ms-box-orient: horizontal;
+    box-orient: horizontal;
+
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-box-pack: justify;
+    box-pack: justify;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    box-align: center;
+
+    img{
+      width: 100%;}
+    span {
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      display: inline-block;
+      overflow: hidden;
+    }
+    dt{
+      font-weight: bold;}
+  }
+
+}
+.btn-setup{
+  width: 64px;
+  height: 32px;
+  border: 2px solid $font-color;
+  color: $font-color;
+  border-radius: 10px;
+  background: #ffffff;
+}
+.paging{
+  margin: 0 auto;
+  width: 90%;
+  height: 50px;
+
+  display: -moz-box;
+  display: -ms-box;
+  display: -webkit-box;
+  display: box;
+
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+  box-orient: horizontal;
+
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-box-pack: justify;
+  box-pack: justify;
+
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+
+    a{
+      color: $font-color;
+      font-size: 1.6rem;}
+}
