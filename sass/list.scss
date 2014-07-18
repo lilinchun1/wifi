@@ -30,10 +30,14 @@ $font-color: #1383eb;
 }
 .nav-btn{
   float: left;
-  width: 33.3%;
+  width: 33.33%;
   height: 36px;
   border:0 none;
   background: #ededed;
+    &:focus{
+      border: 0 none;
+      outline: none;
+    }
 }
 .btn-l{
   border-top-left-radius: 50px;
@@ -89,6 +93,9 @@ $font-color: #1383eb;
   color: $font-color;
   border-radius: 10px;
   background: #ffffff;
+    &:focus{
+      outline: none;
+    }
 }
 .paging{
   margin: 0 auto;
