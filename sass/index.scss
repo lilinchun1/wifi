@@ -223,3 +223,23 @@ html, body {
 
   }
 }
+.usb-banner{
+  height: 28px;
+  background: #ffc000;
+  p{
+    float: left;
+    margin-left: 20%;
+    text-align: center;
+    line-height: 28px;
+    color: #ffffff;
+  }
+  span{
+    margin: 4px 20px 0 0;
+    float: right;
+
+  }
+}
+.usb-btn{
+  float: left;
+  margin-top: 4px;
+}

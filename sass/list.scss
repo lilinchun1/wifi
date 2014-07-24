@@ -81,6 +81,9 @@ $font-color: #1383eb;
       display: inline-block;
       overflow: hidden;
     }
+    dl{
+      width: 40%;
+    }
     dt{
       font-weight: bold;}
   }
@@ -126,3 +129,4 @@ $font-color: #1383eb;
       color: $font-color;
       font-size: 1.6rem;}
 }
+
