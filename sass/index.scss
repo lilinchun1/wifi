@@ -13,6 +13,7 @@ html, body {
 .wrap-page {
   -webkit-overflow-scrolling: touch;
   width: 100%;
+  min-height: 54%;
   overflow: hidden;
 }
 
@@ -71,6 +72,9 @@ html, body {
         font-size: 1em;
         display: block;}
       span {
+        width: 48px;
+        height: 48px;
+        display: block;
         position: relative;
         left: 50%;
         margin-left: -24px;
@@ -82,20 +86,24 @@ html, body {
       }
       i {
         position: absolute;
-        top: 12px;
-        left: 15px;
+        top: 50%;
+        left: 50%;
         width: 20px;
         height: 20px;
         display: block;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
       }
     img{
       width: 100%;}
     &:nth-child(1){
       span{
         @extend %bdrs-li;
-        background: #d45cdf;
+        background: #d45cdf url(../img/list1-1.png) center center no-repeat;
         i{
-          top: 10px;
+          /*top: 10px;*/
 
         }
       }
@@ -104,58 +112,50 @@ html, body {
     &:nth-child(2){
       span{
         @extend %bdrs-li;
-        background: #1383eb;
-
+        background: #1383eb url(../img/list2-2.png) center center no-repeat;
       }
 
     }
     &:nth-child(3){
       span{
         @extend %bdrs-li;
-        background: #1ed4f5;
-
+        background: #d45cdf url(../img/list3-3.png) center center no-repeat;
       }
     }
     &:nth-child(4){
       span{
         @extend %bdrs-li;
-        background: #83cb3c;
-
+        background: #83cb3c url(../img/list4-4.png) center center no-repeat;
       }
     }
     &:nth-child(5){
       span{
         @extend %bdrs-li;
-        background: #2bda8e;
-
+        background: #2bda8e url(../img/list5-5.png) center center no-repeat;
       }
     }
     &:nth-child(6){
       span {
         @extend %bdrs-li;
-        background: #da9047;
-
+        background: #da9047 url(../img/list6-6.png) center center no-repeat;
       }
     }
     &:nth-child(7){
       span {
         @extend %bdrs-li;
-        background: #f24663;
-
+        background: #f24663 url(../img/list7-7.png) center center no-repeat;
       }
     }
     &:nth-child(8){
       span{
         @extend %bdrs-li;
-        background: #a031e6;
-
+        background: #a031e6 url(../img/list6-6.png) center center no-repeat;
       }
     }
     &:nth-child(9){
       span{
         @extend %bdrs-li;
-        background: #d9c049;
-
+        background: #d9c049 url(../img/list7-7.png) center center no-repeat;
       }
 
     }
@@ -168,7 +168,7 @@ html, body {
   min-height: 18.13380281690141%;
   background: #ededed;
     h3 {
-      padding-top: 5px;
+      padding: 10px 0;
       font-weight: bold;
       text-align: center;
     }
@@ -218,6 +218,7 @@ html, body {
         }
     }
     p{
+      margin-top: 5px;
       font-weight: bold;
     }
 
