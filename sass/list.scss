@@ -21,7 +21,7 @@ $font-color: #1383eb;
   margin: 0.5rem auto;
   width: 80%;
   height: 40px;
-  border: 2px solid $font-color;
+/*  border: 2px solid $font-color;*/
   border-radius: 50px;
   .active{
     background: $font-color;
@@ -30,22 +30,30 @@ $font-color: #1383eb;
 }
 .nav-btn{
   float: left;
-  width: 33.33%;
-  height: 36px;
-  border:0 none;
+  width: 33.3333%;
+  height: 40px;
   background: #ededed;
     &:focus{
       border: 0 none;
-      outline: none;
+      outline:0 none;
     }
 }
 .btn-l{
+  border-width: 2px 0 2px 2px;
+  border-color: $font-color;
+  float: left;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
 }
 .btn-r{
+  border-width: 2px 2px 2px 0;
+  border-color: $font-color;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
+}
+.btn-m{
+  border-width: 2px 0 2px 0;
+  border-color: $font-color;
 }
 .list-item{
   margin: 0 auto;
