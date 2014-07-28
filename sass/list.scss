@@ -55,9 +55,9 @@ $font-color: #1383eb;
   border-bottom-right-radius: 50px;
 }
 .btn-m{
-  border-width: 2px 0 2px 0;
-  border-style: solid;
-  border-color: $font-color;
+  border: 2px solid $font-color;
+  border-left: 1px solid solid;
+  border-right: 1px solid solid;
 }
 .list-item{
   margin: 0 auto;
